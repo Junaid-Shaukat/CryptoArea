@@ -1,0 +1,91 @@
+.coin-detail {
+  padding-left: 120px;
+  padding-top: 50px;
+}
+.coin-detail {
+display: flex;
+  justify-content: space-evenly;
+
+}
+
+.time {
+  font-weight: bold;
+}
+
+.coin-image img {
+  margin-top: 60px;
+}
+
+.coin-name {
+  font-weight: bold;
+  font-size: 27px;
+  margin-top: 50px;
+}
+.coin-price {
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 10px;
+}
+.coin-profit {
+  margin-top: 10px;
+  margin-left: 7px;
+  font-size: 17px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.market-rank {
+  font-weight: bold;
+  font-size: 27px;
+  margin-top: 20px;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.coin-desc p {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.coin-desc p {
+  width: 20rem;
+}
+.btn {
+  display: flex;
+  align-items: center;
+}
+.arrows {
+  margin-bottom: 30px;
+  font-size: 25px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.btn button {
+  height: 2rem;
+  background-color: orange;
+  border: none;
+  width: 5rem;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.btn button:hover {
+  color: white;
+}
+.btn button:active {
+  transform: scale(0.9);
+}
+
+@media only screen and (max-width: 600px) {
+  .coin-detail {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+  }
+ 
+}

@@ -1,0 +1,114 @@
+.ex-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+  font-size: 20px;
+  font-weight: 600;
+}
+.name {
+  width: 7rem;
+}
+.rank {
+  width: 7rem;
+}
+.price {
+  width: 7rem;
+}
+
+/* Coins Page Styling */
+
+.btns button {
+  width: 4.5rem;
+  margin-left: 15px;
+  height: 3rem;
+  padding: 15px;
+  background-color: #ffa500;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btns button:hover {
+  color: black;
+}
+.btns button:active {
+  transform: scale(0.9);
+}
+.btns {
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.arrow {
+  font-size: 25px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.all-exchange{
+  text-align: center;
+  margin-top: 700px;
+}
+.all-exchange span{
+  color: orange;
+}
+.search-box input{
+  width: 18rem;
+  height: 2rem;
+  padding: 15px;
+  position: absolute;
+  left: 35%;
+  top: 2.5%;
+  border: none;
+  border-radius:8px;
+  outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .image img{
+    height: 50px;
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+    .name{
+       font-size: 15px;
+       width: 10rem;
+    }
+    .price{
+      font-size: 15px;
+      width:  10rem;
+    }
+    .rank{
+     font-size: 15px;
+    }
+    .ex-cards{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
+}
+
+
+
+.btns{
+  
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+.search-box input{
+  position: absolute;
+  top: 14%;
+  left: 8%;
+  width: 20rem;
+}
+.btns{
+  margin-left: 10px;
+}
+}

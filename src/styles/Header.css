@@ -1,0 +1,48 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1d1d1d;
+    height: 60px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+.navbar ul li a{
+    margin-left: 15rem;
+    text-decoration: none;
+    color: white
+   
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo h1{
+        font-size: 20px;
+    }  
+    .navbar{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0;
+        padding: 0;
+        height: 4rem;
+    }
+    .navbar ul li a{
+        margin-left: 26px;
+        /* padding: 0; */
+        font-size: 18px;
+    }
+    
+
+}
